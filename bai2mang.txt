@@ -1,0 +1,17 @@
+public class baimang1 {
+  public static boolean contains(int[] arr, int item) {
+      for (int n : arr) {
+         if (item == n) {
+            return true;
+         }
+      }
+      return false;
+   }
+   public static void main(String[] args) {
+          int[] ketqua = {
+            1789, 2035, 1899, 1456, 2013, 1910 , 0412 };
+
+      System.out.println(contains(ketqua, 1910));
+      System.out.println(contains(ketqua, 0412));
+   }
+}
